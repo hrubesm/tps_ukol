@@ -68,7 +68,7 @@ def best_insertion(coordinates):
     path = []
     path.append(randint(0,len(coordinates)-1))
     help_list.pop(path[0])
- 
+    
     # Creation of Hamilton circle of three nodes
     for i in range(3):
             x1 = coordinates[len(path)-1][0]
